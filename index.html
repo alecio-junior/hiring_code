@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Descontão de Agosto</title>
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+	
+  <div>
+        <nav id="menu">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Produtos</a></li>
+              <li><a href="#">Missão</a></li>
+              <li><a href="#">Contato</a></li>
+          </ul>
+      </nav> 
+   </div>
+
+ 
+    <div class="caixa">
+    <p style="text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 2px; font-size: 16px;">AGUARDEM</p>
+    <img alt="descontao_agosto" src="assets/images/descontao_agosto.jpg"></div>
+ 
+
+  <div class = "descontao_agosto">
+	  <div class = "bxDA">
+      <div class = "conteudo">
+         <div class="apresentacao">
+         <p>Prepare-se para o <strong>Descontão de Agosto </strong> com descontos de 30% em todo o site e tenha frete grátis assinando nossa newsletter! Acompanhe o nosso site, aplicativo e lojas físicas para ficar por dentro de todas as nossas ofertas em moda feminina, masculina e infantil.
+        Só aqui na <strong>GAMAfashion</strong> você leva todas as tendências para casa! Fique de olho e não perca!</p>
+        </div>
+	   <div class = "falta">
+        
+		    <p>
+		    FALTAM
+		   </p>
+  <!--Exibir o cronômetro de contagem regressiva em um elemento -->
+  <p id="demo" style="margin: 0px; color: rgb(255, 204, 0); font-size: 50px; padding: 15px; margin-right: 30%;">39 DIAS</p>
+  <script>
+  // Defina a data em que estamos em contagem regressiva
+  var countDownDate = new Date("August 23, 2021 23:59:59").getTime();
+  
+  // Atualize a contagem regressiva a cada 1 segundo
+  var x = setInterval(function() {
+  
+	// Obtenha a data e hora de hoje
+	var now = new Date().getTime();
+  
+	//Encontre a distância entre agora e a data de contagem regressiva
+	var distance = countDownDate - now;
+  
+	// Cálculos de tempo para dias, horas, minutos e segundos
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  
+	// Exibir o resultado no elemento com id = "demo"
+	document.getElementById("demo").innerHTML = days + " DIAS";
+  
+	//Se a contagem regressiva terminar, escreva algum texto
+	if (distance < 0) {
+	  clearInterval(x);
+	  document.getElementById("demo").innerHTML = "PROMOÇÃO";
+	}
+  }, 1000);
+  </script>
+  <!--Exibir o cronômetro de contagem regressiva em um elemento -->
+  <p class="horas" id="demo2">13h 54m 37s</p>
+  <script>
+		  // Defina a data em que estamos em contagem regressiva
+		  var countDownDate = new Date("August 23, 2021 23:59:59").getTime();
+  
+		  // Atualize a contagem regressiva a cada 1 segundo
+		  var x = setInterval(function() {
+  
+			// Obtenha a data e hora de hoje
+			var now = new Date().getTime();
+  
+			//Encontre a distância entre agora e a data de contagem regressiva
+			var distance = countDownDate - now;
+  
+			// Cálculos de tempo para dias, horas, minutos e segundos
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+			// Exibir o resultado no elemento com id = "demo"
+			document.getElementById("demo2").innerHTML = hours + "h "
+			+ minutes + "m " + seconds + "s ";
+  
+			//Se a contagem regressiva terminar, escreva algum texto
+			if (distance < 0) {
+			  clearInterval(x);
+			  document.getElementById("demo2").innerHTML = "EXPIRADA";
+			}
+		  }, 1000);
+		  </script>
+  
+	  </div>
+    </div>
+	</div>
+    </div>
+
+  <div class="wrapper">
+    <div class="newsletter">
+      <div class="newsletter_text">
+        Receba ofertas e novidades por e-mail
+      </div>
+      <div class="newsletter_form">
+        <form id="formNewsletter" method="post">
+            <label for="interest" class="hiddenlabel">Interesse</label>
+          <select name="interest" id="interest" required="">
+            <option value="" disabled="disabled" selected="selected">Interesse</option>	
+                <option value="Feminino">Feminino</option>	
+                <option value="Masculino">Masculino</option>	
+                <option value="Infantil">Infantil</option>	
+                <option value="Ashua Curve & Plus Size ">Ashua Curve &amp; Plus Size</option>	
+                <option value="Calçados">Calçados</option>	
+                <option value="Perfumaria & Cosméticos">Perfumaria &amp; Cosméticos</option>	
+                <option value="Moda Íntima">Moda Íntima</option>	
+                <option value="Moda Praia">Moda Praia</option>	
+         </select>	
+          <input type="email" name="email" id="email" placeholder="Digite seu e-mail" value="" bean="NewsletterFormHandler.email" autocapitalize="off" required="">
+          <label for="email" class="hiddenlabel">Digite seu e-mail</label>	
+          <input id="registerNewsletter" type="submit" value="Cadastrar">
+        </form>
+      </div>
+    </div>
+   </div>
+
+    <div class="container">
+    <div class="conteudo">
+      <div class="PainelTendencias">
+        <div class="BannerTendencias" id="rr3i1626444710102-home_page.card_colecao_CTA1home_page.card_colecao_CTA2home_page.card_colecao_CTA3">
+          <div class="Titulo">Nossas Tendências&nbsp;</div>
+          <div class="ModelosTendecias">
+            <a id="rr3i1626444710102-home_page.card_colecao_CTA1home_page.card_colecao_CTA2home_page.card_colecao_CTA3_1" href="#" target="_self" class="PromoClick ThreeItems">
+             <img loading="lazy" class="" alt="Esportivo Urbano" src="assets/images/20210706_HOME_CARD_MODA_ESPORTIVOURBANO_GERAL_RESP_V2.jpg">
+             <p class="SupTitulo">Esportivo Urbano</p>
+             <p class="Descricao">Aposte no sportswear para as produções do dia a dia</p>
+             <span class="SaibaMais">Saiba mais</span></a>
+             <a id="rr3i1626444710102-home_page.card_colecao_CTA1home_page.card_colecao_CTA2home_page.card_colecao_CTA3_2" target="_self" class="PromoClick ThreeItems" href="#"><img loading="lazy" class="" alt="Sofisticação Cool" src="assets/images/20210706_HOME_CARD_MODA_SOFISTICACAOCOOL_GERAL_RESP.jpg">
+               <p class="SupTitulo">Sofisticação Cool</p>
+               <p class="Descricao">Combine shapes elegantes e um visual de atitude</p>
+               <span class="SaibaMais">Saiba mais</span></a>
+               <a id="rr3i1626444710102-home_page.card_colecao_CTA1home_page.card_colecao_CTA2home_page.card_colecao_CTA3_3" target="_self" class="PromoClick ThreeItems" href="#">
+                 <img loading="lazy" class="" alt="Sobreposições" src="assets/images/20210706_HOME_CARD_MODA_SOBREPOSICOES_GERAL_RESP.jpg">
+                 <p class="SupTitulo">Sobreposições</p>
+                 <p class="Descricao">Moletons, tricôs e casacos para compor looks quentinhos</p>
+                 <span class="SaibaMais">Saiba mais</span></a>
+               </div>
+               </div>
+               </div>
+              </div>
+            </div>
+
+               <div class="Apps"><span class="DescricaoApp">Baixe o aplicativo da GAMAfashion e não perca nenhuma promoção</span>
+    
+                <p style="text-align: center; color: rgb(143, 143, 143);">Baixe o nosso aplicativo para ficar por dentro de todas as novidades e promoções. E ainda: <strong>ao comprar pelo app, o frete é grátis.</strong></p>
+                &nbsp;
+                
+                <div style="text-align: center; margin-bottom: 50px;"><a href="#" style="padding: 10px;" target="_blank"><img alt="APP STORE" src="assets/images/app-store.png"></a> <a href="#" style="padding: 10px;" target="_blank"><img alt="GOOGLE PLAY" src="assets/images/google-play.png"></a></div>
+                
+                <p style="text-align: center; color: gray; font-size: 8px; font-style: italic;">* Válido apenas na loja virtual da Gama store para produtos selecionados para esta campanha enquanto durarem os estoques. Imagens meramente ilustrativas.</p>
+                </div>
+  
+      <div class = "footer">
+        Pagina desenvolvido para o programa Hiring Code
+      </div>
+      <script src="js/index.js"></script>
+</body>
+</html>

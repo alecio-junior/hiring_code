@@ -1,0 +1,1 @@
+projeto que criei para o primeiro desafio individual da HiringCoders oferecido pela Gama Academy. O Desafio consiste em criar uma landing page de um ecommerce onde o cliente possa cadastrar o email pra receber mais informações, cupons etc. E as informações digitadas no formulário deveriam ser guardadas no localstorage.

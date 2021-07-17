@@ -1,0 +1,608 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+div {
+    display: block;
+}
+
+
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+.topo {
+    width: 100%;
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 380px;
+    display: block;
+    margin-top: 0px;
+}
+
+.caixa {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+.caixa img {
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+element.style {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.apresentacao p {
+    color:#fff;
+}
+
+.apresentacao{
+    float: left;
+    width: 587px;
+    border-right: 1px solid #ccc;
+    text-align: right;
+    padding: 15px;   
+}
+
+.falta{
+        float: left;
+        width: 400px;
+        text-align: left;
+        padding: 15px;
+}
+
+.falta p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.descontao_agosto {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.black-friday p {
+    color: #000;
+}
+
+.bxDA {
+    background: #000;
+    width: 100%;
+   
+}
+
+.bxDA .conteudo {
+    display: table;
+    margin: 0 auto;
+    padding-left: 5%;
+}
+
+.conteudo p {
+    line-height: 30px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+
+hr {
+    margin-top: 10;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+   
+}
+
+.horas{
+    margin: 0px;
+    color: #fff; 
+    font-size: 30px;
+}
+
+.container {
+    width: 96,2%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    padding-top: 25px;
+    /* margin-bottom: .5rem; */
+}
+
+.conteudo p {
+    line-height: 30px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 15px;
+}
+
+.produto-branco {
+    padding: 1px 0;
+    background: #fff;
+}
+
+.produto {
+    background: #000000;
+    padding: 15px 0;
+}
+
+.Apps {
+    background: #000;
+    padding: 10px 0;
+    margin: 30px 0;
+}
+
+
+
+.DescricaoApp {
+    background-color:  #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: bold;
+    margin: 20px auto;
+    display: table;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 105px;
+    max-width: 1998px;
+    padding: 0 1px;
+    margin: 0 15%;
+    
+}
+
+.newsletter {
+    flex-direction: column;
+    background: #e0e0e0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.newsletter .newsletter_text {
+    padding-bottom: 5px;
+}
+
+.newsletter .newsletter_text {
+    font-size: 14px;
+}
+
+.newsletter .newsletter_form {
+    width: calc(100% - 250px);
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+}
+
+.hiddenlabel {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+    display: none;
+}
+ .newsletter form input[type=submit] {
+    width: 145px;
+    padding: 13px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 0;
+    margin: 0 0 0 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+label {
+    display: initial !important;
+    margin-bottom: .5rem;
+}
+
+.newsletter form select, footer  .newsletter form input[type=email] {
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding: 8px 0;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #191919;
+    margin: 0 5px;
+}
+
+.newsletter form select {
+    width: 37%;
+    background: url(../css/arrow.png) center right no-repeat;
+}
+
+select {
+    word-wrap: normal;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+button, select {
+    text-transform: none;
+}
+button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+}
+
+.newsletter form input[type=email] {
+    width: 52%;
+}
+
+.PainelTendencias {
+    max-width: 100%;
+    padding: 0 8px;
+    margin: 0 auto 40px;
+    background-color: #fff;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+.BannerTendencias {
+    display: inline-block;
+    width: 100%;
+}
+
+.Titulo {
+    width: 100%;
+    position: relative;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 32px;
+    font-weight: 300;
+    clear: both;
+    display: inline-block;
+}
+
+.ModelosTendecias {
+    position: relative;
+    align-items: flex-start;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.PromoClick {
+    width: 33.33%;
+    height: 100%;
+    display: block;
+}
+
+
+
+.PromoClick img {
+    max-width: 100%;
+    height: auto;
+}
+
+.PromoClick.ThreeItems .SupTitulo {
+    text-align: left;
+    padding: 4px;
+}
+
+
+.Descricao {
+    font-size: 16px;
+    color: #5c5c5c;
+    padding: 4px;
+    min-height: 32px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.SaibaMais {
+    font-size: 14px;
+    padding: 4px;
+    min-height: 32px;
+    text-align: left;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+a {
+    color: #000;
+    text-decoration: inherit;
+    font: inherit;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.footer {
+        
+        bottom: 0;
+        background-color:#000;
+        color: #FFF;
+        width: 100%;
+        height: 100px;    
+        text-align: center;
+        line-height: 100px;
+    }
+
+    @media only screen and (max-width : 700px) {
+
+        .apresentacao {
+            width: 90%;
+            text-align: center;
+            padding: 15px;
+            border-right: none;
+            
+        }
+
+        .conteudo p {
+            line-height: 30px;
+            text-align: center;
+        }
+    
+        .falta{
+            float: left;
+            width: 400px;
+            margin-left: 15%;
+            text-align: center;
+          }
+    
+          .falta p {
+            color: #fff;
+           font-size: 25px;
+           margin-bottom: 15px;
+           margin-right: 30%;
+           padding-bottom: 1px;
+           text-align: center;
+        }
+
+        img {
+            vertical-align: middle;
+            border-style: none;
+            margin-left: 8%;
+        }
+
+        element.style {
+            margin: 0px;
+            margin-right: 30%;
+            color: rgb(255, 204, 0);
+            font-size: 50px;
+            padding: 15px;
+            align-items: start;
+        }
+
+        .newsletter {
+            flex-direction: column;
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin: 15px;
+            height: 200px;
+            width: 400px;
+        }
+
+        .newsletter .newsletter_form {
+            width: 300px;
+            height: 400px;
+        }
+
+        .newsletter form select {
+            width: 100%;
+            height: 100%;
+            background: url(../css/arrow.png) center right no-repeat;
+            margin-bottom: 15px;
+        }
+
+        .newsletter form {
+            display: block; 
+            align-items: center;
+        }
+
+        .newsletter form input[type=email] {
+            width: 102%;
+        }
+
+        .newsletter form input[type=submit] {
+            width: 145px;
+            padding: 13px;
+            background: #000;
+            color: #fff;
+            font-size: 14px;
+            letter-spacing: 1px;
+            border: 0;
+            margin: 10px 10px 90px 70px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .wrapper {
+            /* display: flex; */
+            align-items: center;
+            min-height: 105px;
+            max-width: 1998px;
+            padding: 0 1px;
+            margin: 0 15%;
+        }
+
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #fff;
+            height: auto;
+            
+        }
+
+        .PainelTendencias {
+            max-width: 80%;
+            padding: 0 8px;
+            margin: 0 auto 40px;
+            background-color: #fff;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .ModelosTendecias {
+            position: relative;
+            align-items: flex-start;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        
+
+        .PromoClick {
+            width: 33.33%;
+            height: 100%;
+            display: contents; 
+        }
+
+        .PromoClick img {
+            max-width: 90%;
+            height: auto;
+            margin-top: 5px;
+        }
+
+        .PromoClick.ThreeItems .SupTitulo {
+            text-align: center;
+            padding: 4px;
+        }
+
+        .Descricao {
+            font-size: 16px;
+            color: #5c5c5c;
+            padding: 4px;
+            min-height: 32px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .BannerTendencias {
+            display: inline-block;
+            margin-bottom: 10px;
+            /* width: 100%; */
+            /* height: 2000px; */
+        }
+
+        .SaibaMais {
+            font-size: 35px;
+            padding: 4px;
+            min-height: 32px;
+            text-align: left;
+            text-decoration: underline;
+            font-weight: 300;
+            margin-left: 30%;
+        }
+
+        .DescricaoApp {
+            background-color:#000;;
+            text-transform: uppercase;
+            font-size: 30px;
+            padding: 15px;
+            font-weight: bold;
+            margin: 20px auto;
+            display: table;
+            color: #fff;
+            text-align: center;
+        }
+         }
